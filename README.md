@@ -1,5 +1,5 @@
 # RecordTools
-对TheAmazingAudioEngine进行简单的录音封装
+对TheAmazingAudioEngine进行简单的录音整理
 
 该工程具备简单录音功能
 同时录制输入输出音源
