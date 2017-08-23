@@ -54,6 +54,7 @@
 		3D7DFBF91F4D37E900B8C277 /* TPCircularBuffer+AudioBufferList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DFBCE1F4D37E900B8C277 /* TPCircularBuffer+AudioBufferList.m */; };
 		3D7DFBFA1F4D37E900B8C277 /* TPCircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DFBD01F4D37E900B8C277 /* TPCircularBuffer.m */; };
 		3D7DFBFB1F4D37E900B8C277 /* TPOscilloscopeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DFBD21F4D37E900B8C277 /* TPOscilloscopeLayer.m */; };
+		3D7DFC041F4D55F600B8C277 /* Drum_20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D7DFC031F4D55F600B8C277 /* Drum_20.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -150,6 +151,7 @@
 		3D7DFBD01F4D37E900B8C277 /* TPCircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCircularBuffer.m; sourceTree = "<group>"; };
 		3D7DFBD11F4D37E900B8C277 /* TPOscilloscopeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPOscilloscopeLayer.h; sourceTree = "<group>"; };
 		3D7DFBD21F4D37E900B8C277 /* TPOscilloscopeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPOscilloscopeLayer.m; sourceTree = "<group>"; };
+		3D7DFC031F4D55F600B8C277 /* Drum_20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drum_20.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		3D7DFB671F4D368300B8C277 /* RecordTools */ = {
 			isa = PBXGroup;
 			children = (
+				3D7DFC031F4D55F600B8C277 /* Drum_20.mp3 */,
 				3D7DFB7F1F4D37E900B8C277 /* RecordFile */,
 				3D7DFB6B1F4D368300B8C277 /* AppDelegate.h */,
 				3D7DFB6C1F4D368300B8C277 /* AppDelegate.m */,
@@ -355,6 +358,7 @@
 			files = (
 				3D7DFB781F4D368300B8C277 /* LaunchScreen.storyboard in Resources */,
 				3D7DFB751F4D368300B8C277 /* Assets.xcassets in Resources */,
+				3D7DFC041F4D55F600B8C277 /* Drum_20.mp3 in Resources */,
 				3D7DFB731F4D368300B8C277 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K4Q7WBDP3W;
 				INFOPLIST_FILE = RecordTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.recordtools.lxy.RecordTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,6 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K4Q7WBDP3W;
 				INFOPLIST_FILE = RecordTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.recordtools.lxy.RecordTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
