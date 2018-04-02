@@ -109,7 +109,9 @@
         self.player = nil;
         _playTheTapeButton.selected = NO;
     } else {
+        //打开沙盒路径
         NSArray *documentsFolders = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        //查找刚存入的音频文件名
         NSString *path = [documentsFolders[0] stringByAppendingPathComponent:@"Recording.m4a"];
         
         if ( ![[NSFileManager defaultManager] fileExistsAtPath:path] ) return;
@@ -128,11 +130,13 @@
         
         _player.removeUponFinish = YES;
         __weak ViewController *weakSelf = self;
+        //播放完成以后的回调
         _player.completionBlock = ^{
             ViewController *strongSelf = weakSelf;
             strongSelf->_playTheTapeButton.selected = NO;
             weakSelf.player = nil;
         };
+        //将音频播放器添加到音频控制器的通道中进行播放
         [_audioController addChannels:@[_player]];
         
         _playTheTapeButton.selected = YES;
