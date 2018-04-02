@@ -12,14 +12,14 @@
 ### 在音频播放器准备完毕的情况下使用
 ```
 /**将音频播放器添加到音频控制器的通道中进行播放
-*****可添加一个播放器,亦可添加多个,以NSArray的形式添加
+****可添加一个播放器,亦可添加多个,以NSArray的形式添加
 */
 [_audioController addChannels:@[_player]];
 ```
 ### 在音频播放器使用完毕时,及时用AEAudioController中移除
 ```
 /**当不在使用该音频播放器时,进行通道移除
-*****可添加一个播放器,亦可添加多个,以NSArray的形式移除
+****可移除一个播放器,亦可移除多个,以NSArray的形式移除
 */
 [_audioController removeChannels:@[_player]];
 ```
@@ -173,6 +173,6 @@ if ( _player ) {
 }
 ```
 # issue
-## [随时联系我QQ](1120753616)
+## 随时联系我QQ [1120753616](http://rj.baidu.com/soft/detail/25677.html?ald)
 ## [我的博客](https://blog.csdn.net/lixueyuan1995)
-## [❤️Vx](18507138507)
+## ❤️Vx  [18507138507](http://rj.baidu.com/soft/detail/38200.html?ald)
